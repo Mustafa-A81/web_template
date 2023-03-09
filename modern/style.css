@@ -1,0 +1,35 @@
+.linear-gradient-full{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.linear-gradient_small_one{
+    background: rgb(30,100,2);
+    background: linear-gradient(90deg, rgb(30, 100, 2) 0%, rgb(89, 121, 9) 35%, rgb(221, 255, 0) 100%);
+}
+.purple-linear{
+    background-image: linear-gradient(to right top, #a8eb12, #00bf72, #008793, #004d7a, #051937);
+}
+.blue-linear{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.tur-linear{
+    background-image: linear-gradient(to right top, #ffd40b, #ffb800, #ff9b00, #ff7c00, #fe5a00, #f86000, #f16500, #eb6900, #de8f00, #c1b300, #90d400, #00f234);
+}
+.circle{
+    background-image: linear-gradient(
+    45deg,
+    hsl(120deg 100% 20%) 0%,
+    hsl(100deg 100% 23%) 11%,
+    hsl(90deg 100% 26%) 22%,
+    hsl(83deg 100% 29%) 33%,
+    hsl(77deg 100% 32%) 44%,
+    hsl(72deg 100% 35%) 56%,
+    hsl(68deg 100% 38%) 67%,
+    hsl(63deg 100% 40%) 78%,
+    hsl(59deg 100% 44%) 89%,
+    hsl(55deg 100% 50%) 100%
+    );
+}
+.cards:hover{
+    opacity:calc(100) !important;
+}
